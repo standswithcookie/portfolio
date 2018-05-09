@@ -1,23 +1,57 @@
-header{
- color: #000;
- text-align: right;
-}
-main,
- article{
-  text-align: center;
-  max-width: 100%;
-}
-.header__logo {
-  height: 150px;
-  margin-right: 1em;
-  vertical-align: top;
-  margin-top: 12px;
+header {
+	color: #000;
+	text-align: right;
 }
 
-article{
-font-family: 'Lobster', cursive;
-color: grey;
-font-size: 25px;}
+/*main, article {*/
+main {
+	text-align: center;
+	max-width: 100%;
+}
+
+.header__logo {
+	height: 150px;
+	margin-right: 1em;
+	vertical-align: top;
+	margin-top: 12px;
+}
+
+#title {
+	font-family: 'Lobster', cursive;
+	color: grey;
+	font-size: 25px;
+}
 /* div {
-  border: line;
+	border: line;
 } */
+
+@media screen and (max-width: 865px) {
+	.kids{
+		display: none;
+	}
+}
+
+a {
+	padding: 1em;
+}
+
+.da-projects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.project-title {
+	display: block;
+	/*margin: auto;*/
+	text-align: center;
+}
+/*	img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+	}
+*/
+/*div{
+	border-style: solid;
+}*/
